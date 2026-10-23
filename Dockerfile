@@ -18,7 +18,9 @@ RUN apt-get update && \
 		texlive-lang-cjk \
 		texlive-fonts-recommended \
 		texlive-fonts-extra \
-		texlive-science
+		texlive-science \
+		texlive-bibtex-extra \
+		biber
 ########## diff ##########
 RUN apt-get update && \
 	apt-get install -y latexdiff
